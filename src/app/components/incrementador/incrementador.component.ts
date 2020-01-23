@@ -11,7 +11,7 @@ export class IncrementadorComponent implements OnInit {
   @Input('nombre') leyenda:string='Leyenda';
   @Input() progreso:number=50;
 
-  @Output() cambioValor: EventEmitter<number> = new EventEmitter();
+  @Output('actualizaValor') cambioValor: EventEmitter<number> = new EventEmitter();
 
   constructor() { }
 
