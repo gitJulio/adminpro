@@ -12,7 +12,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import {FormsModule} from '@angular/forms';
-// import { IncrementadorComponent } from './components/incrementador/incrementador.component';
+
 
 
 
@@ -21,7 +21,6 @@ import {FormsModule} from '@angular/forms';
     AppComponent,
     RegistroComponent,
     LoginComponent,
-    // IncrementadorComponent
   ],
   imports: [
     BrowserModule,
