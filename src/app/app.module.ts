@@ -12,6 +12,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegistroComponent } from './registro/registro.component';
 import {FormsModule} from '@angular/forms';
+import { ServiceModule } from './servicios/service.index';
 // import { GraficoDonaComponent } from './components/grafico-dona/grafico-dona.component';
 
 
@@ -28,7 +29,8 @@ import {FormsModule} from '@angular/forms';
     BrowserModule,
     APP_ROUTES,
     PagesModule,
-    FormsModule
+    FormsModule,
+    ServiceModule
   ],
   providers: [],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],

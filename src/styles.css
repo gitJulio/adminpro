@@ -50,3 +50,6 @@ Login register and recover password Page
       position: absolute;
       height: 100%; }
   
+      #themecolors a{
+          cursor: pointer;
+      }
